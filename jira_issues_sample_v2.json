@@ -1,0 +1,555 @@
+{
+  "jira_base_url": "https://buynomics.atlassian.net",
+  "project_key": "PF",
+  "generated_at": "2025-08-21T11:44:02+00:00",
+  "issues": [
+    {
+      "key": "PF-2847",
+      "url": "https://buynomics.atlassian.net/browse/PF-2847",
+      "summary": "Weekly Jira auto-summary for Confluence",
+      "description": "As a PM, I want weekly summaries without raw JSON or timestamps like 2025-07-20T09:00Z. Nulls must be hidden.",
+      "status": "To Do",
+      "labels": [
+        "ai",
+        "cleanup",
+        "p1"
+      ],
+      "type": "Story",
+      "priority": "Highest",
+      "reporter": "eng_lead",
+      "assignee": "ux_lead",
+      "created": "2025-07-12T08:05:00+02:00",
+      "updated": "2025-08-16T17:25:00+02:00",
+      "comments": [
+        {
+          "author": "it_ops",
+          "created": "2025-08-11T11:26:00+02:00",
+          "body": "Waiting for approval."
+        },
+        {
+          "author": "luca",
+          "created": "2025-08-13T14:55:00+02:00",
+          "body": "Edge case: empty descriptions."
+        },
+        {
+          "author": "luca",
+          "created": "2025-08-06T14:44:00+02:00",
+          "body": "Edge case: empty descriptions."
+        }
+      ]
+    },
+    {
+      "key": "PF-2848",
+      "url": "https://buynomics.atlassian.net/browse/PF-2848",
+      "summary": "Clickable Slack digest grouped by status",
+      "description": "Use <URL|KEY> formatting, exclude label 'internal'. Include simple counts per status.\nFound timestamp: 2025-08-01T12:00Z\n",
+      "status": "In Progress",
+      "labels": [
+        "automation",
+        "n8n",
+        "ai"
+      ],
+      "type": "Story",
+      "priority": "Low",
+      "reporter": "pm_team",
+      "assignee": "devops",
+      "created": "2025-07-23T12:46:00+02:00",
+      "updated": "2025-08-13T16:15:00+02:00",
+      "comments": [
+        {
+          "author": "luca",
+          "created": "2025-08-18T12:52:00+02:00",
+          "body": "Edge case: empty descriptions."
+        }
+      ]
+    },
+    {
+      "key": "PF-2849",
+      "url": "https://buynomics.atlassian.net/browse/PF-2849",
+      "summary": "Normalize labels to taxonomy v2",
+      "description": "Map promotion/promo/promotions to 'promotion'. Keep an audit CSV. NULL lines may appear.NULL",
+      "status": "In Review",
+      "labels": [
+        "n8n",
+        "cleanup",
+        "jira"
+      ],
+      "type": "Story",
+      "priority": "Highest",
+      "reporter": "pmm",
+      "assignee": "ux_lead",
+      "created": "2025-07-10T14:51:00+02:00",
+      "updated": "2025-08-06T16:41:00+02:00",
+      "comments": [
+        {
+          "author": "eng_lead",
+          "created": "2025-08-02T16:20:00+02:00",
+          "body": "Example cURL must run."
+        },
+        {
+          "author": "eng_lead",
+          "created": "2025-08-10T08:52:00+02:00",
+          "body": "Example cURL must run."
+        },
+        {
+          "author": "john_pm",
+          "created": "2025-08-18T18:23:00+02:00",
+          "body": "Holiday mode snooze accepted."
+        }
+      ]
+    },
+    {
+      "key": "PF-2850",
+      "url": "https://buynomics.atlassian.net/browse/PF-2850",
+      "summary": "Confluence IA proposal & page templates",
+      "description": "Audit orphan pages; propose templates for PRD, RFC, Release Notes. Avoid deleting anything.\nFound timestamp: 2025-08-01T12:00Z\n",
+      "status": "In Progress",
+      "labels": [
+        "n8n",
+        "p0",
+        "p1"
+      ],
+      "type": "Story",
+      "priority": "Medium",
+      "reporter": "luca",
+      "assignee": "philippe",
+      "created": "2025-07-19T10:43:00+02:00",
+      "updated": "2025-08-17T10:48:00+02:00",
+      "comments": [
+        {
+          "author": "pmm",
+          "created": "2025-08-07T17:40:00+02:00",
+          "body": "Tone: no jargon, short."
+        },
+        {
+          "author": "eng_lead",
+          "created": "2025-08-09T18:10:00+02:00",
+          "body": "Example cURL must run."
+        },
+        {
+          "author": "data_team",
+          "created": "2025-08-18T15:09:00+02:00",
+          "body": "Mind timezone differences."
+        }
+      ]
+    },
+    {
+      "key": "PF-2851",
+      "url": "https://buynomics.atlassian.net/browse/PF-2851",
+      "summary": "Backlog hygiene bot (stale ping + holiday snooze)",
+      "description": "Ping tickets idle > 30 days. Allow 14-day snooze. Do not auto-close.NULL",
+      "status": "In Progress",
+      "labels": [
+        "jira",
+        "confluence",
+        "doc"
+      ],
+      "type": "Task",
+      "priority": "Low",
+      "reporter": "eng_lead",
+      "assignee": "philippe",
+      "created": "2025-07-17T10:01:00+02:00",
+      "updated": "2025-08-15T11:23:00+02:00",
+      "comments": [
+        {
+          "author": "sebastian",
+          "created": "2025-08-04T09:19:00+02:00",
+          "body": "Check security & PII."
+        },
+        {
+          "author": "sebastian",
+          "created": "2025-08-01T13:04:00+02:00",
+          "body": "Check security & PII."
+        }
+      ]
+    },
+    {
+      "key": "PF-2852",
+      "url": "https://buynomics.atlassian.net/browse/PF-2852",
+      "summary": "Release notes: transform commits to customer language",
+      "description": "Group into Features/Improvements/Fixes. Remove internal code refs.\nFound timestamp: 2025-08-01T12:00Z\nNULL",
+      "status": "To Do",
+      "labels": [
+        "cleanup"
+      ],
+      "type": "Spike",
+      "priority": "Medium",
+      "reporter": "claudia",
+      "assignee": "devops",
+      "created": "2025-07-23T09:17:00+02:00",
+      "updated": "2025-08-12T11:58:00+02:00",
+      "comments": [
+        {
+          "author": "philippe",
+          "created": "2025-08-01T14:19:00+02:00",
+          "body": "Add cycle time metric if simple."
+        },
+        {
+          "author": "pmm",
+          "created": "2025-08-12T12:59:00+02:00",
+          "body": "Tone: no jargon, short."
+        },
+        {
+          "author": "claudia",
+          "created": "2025-08-07T16:02:00+02:00",
+          "body": "Please propose page types & templates."
+        }
+      ]
+    },
+    {
+      "key": "PF-2853",
+      "url": "https://buynomics.atlassian.net/browse/PF-2853",
+      "summary": "Credentials vault hardening for n8n",
+      "description": "Rotate tokens; restrict scopes to read-only. Never log secrets.",
+      "status": "Blocked",
+      "labels": [
+        "confluence"
+      ],
+      "type": "Story",
+      "priority": "High",
+      "reporter": "claudia",
+      "assignee": null,
+      "created": "2025-07-12T10:18:00+02:00",
+      "updated": "2025-08-20T12:14:00+02:00",
+      "comments": [
+        {
+          "author": "eng_lead",
+          "created": "2025-08-18T10:37:00+02:00",
+          "body": "Example cURL must run."
+        },
+        {
+          "author": "it_ops",
+          "created": "2025-08-09T14:11:00+02:00",
+          "body": "Waiting for approval."
+        }
+      ]
+    },
+    {
+      "key": "PF-2854",
+      "url": "https://buynomics.atlassian.net/browse/PF-2854",
+      "summary": "Customer call summarizer (RAG-lite)",
+      "description": "Chunk transcripts, extract pain points & feature requests. Redact emails/phones.",
+      "status": "In Progress",
+      "labels": [
+        "internal",
+        "automation",
+        "ops"
+      ],
+      "type": "Bug",
+      "priority": "Low",
+      "reporter": "pm_team",
+      "assignee": "philippe",
+      "created": "2025-07-22T18:21:00+02:00",
+      "updated": "2025-08-10T17:34:00+02:00",
+      "comments": [
+        {
+          "author": "hr_partner",
+          "created": "2025-08-06T18:10:00+02:00",
+          "body": "Minimize personal data."
+        }
+      ]
+    },
+    {
+      "key": "PF-2855",
+      "url": "https://buynomics.atlassian.net/browse/PF-2855",
+      "summary": "Duplicate detector via similarity score",
+      "description": "Flag similarity>0.88 on title+description. Human review only.\nFound timestamp: 2025-08-01T12:00Z\nNULL",
+      "status": "In Progress",
+      "labels": [
+        "p1",
+        "n8n"
+      ],
+      "type": "Spike",
+      "priority": "High",
+      "reporter": "pmm",
+      "assignee": "data_analyst",
+      "created": "2025-07-29T17:07:00+02:00",
+      "updated": "2025-08-11T12:54:00+02:00",
+      "comments": [
+        {
+          "author": "eng_lead",
+          "created": "2025-08-18T08:43:00+02:00",
+          "body": "Example cURL must run."
+        }
+      ]
+    },
+    {
+      "key": "PF-2856",
+      "url": "https://buynomics.atlassian.net/browse/PF-2856",
+      "summary": "Design system inventory (Figma) rollout",
+      "description": "Map 80% screens to components; publish usage guide.NULL",
+      "status": "Done",
+      "labels": [
+        "automation",
+        "p0",
+        "internal"
+      ],
+      "type": "Bug",
+      "priority": "Low",
+      "reporter": "luca",
+      "assignee": "devops",
+      "created": "2025-07-21T17:48:00+02:00",
+      "updated": "2025-08-10T10:02:00+02:00",
+      "comments": [
+        {
+          "author": "luca",
+          "created": "2025-08-18T09:12:00+02:00",
+          "body": "Edge case: empty descriptions."
+        },
+        {
+          "author": "claudia",
+          "created": "2025-08-08T13:37:00+02:00",
+          "body": "Please propose page types & templates."
+        }
+      ]
+    },
+    {
+      "key": "PF-2857",
+      "url": "https://buynomics.atlassian.net/browse/PF-2857",
+      "summary": "OpenAPI → Confluence sync with runnable examples",
+      "description": "Ensure example cURL works. Fix broken code blocks.NULL",
+      "status": "In Review",
+      "labels": [
+        "cleanup",
+        "ops",
+        "p0"
+      ],
+      "type": "Bug",
+      "priority": "Low",
+      "reporter": "luca",
+      "assignee": null,
+      "created": "2025-07-12T18:26:00+02:00",
+      "updated": "2025-08-05T09:52:00+02:00",
+      "comments": [
+        {
+          "author": "philippe",
+          "created": "2025-08-05T16:15:00+02:00",
+          "body": "Add cycle time metric if simple."
+        },
+        {
+          "author": "philippe",
+          "created": "2025-08-17T12:07:00+02:00",
+          "body": "Add cycle time metric if simple."
+        },
+        {
+          "author": "pmm",
+          "created": "2025-08-10T13:59:00+02:00",
+          "body": "Tone: no jargon, short."
+        }
+      ]
+    },
+    {
+      "key": "PF-2858",
+      "url": "https://buynomics.atlassian.net/browse/PF-2858",
+      "summary": "Roadmap metrics pack dashboard",
+      "description": "Lead time, throughput, adoption. Timezone awareness required.NULL",
+      "status": "In Progress",
+      "labels": [
+        "ai",
+        "internal"
+      ],
+      "type": "Bug",
+      "priority": "Highest",
+      "reporter": "luca",
+      "assignee": "ux_lead",
+      "created": "2025-07-19T08:26:00+02:00",
+      "updated": "2025-08-13T18:59:00+02:00",
+      "comments": [
+        {
+          "author": "philippe",
+          "created": "2025-08-19T13:57:00+02:00",
+          "body": "Add cycle time metric if simple."
+        }
+      ]
+    },
+    {
+      "key": "PF-2859",
+      "url": "https://buynomics.atlassian.net/browse/PF-2859",
+      "summary": "Internal skills (CV) directory",
+      "description": "Opt-in profile tags; search by domain. Respect privacy.",
+      "status": "To Do",
+      "labels": [
+        "automation"
+      ],
+      "type": "Task",
+      "priority": "Highest",
+      "reporter": "sebastian",
+      "assignee": null,
+      "created": "2025-07-10T11:22:00+02:00",
+      "updated": "2025-08-10T11:19:00+02:00",
+      "comments": [
+        {
+          "author": "data_team",
+          "created": "2025-08-03T11:02:00+02:00",
+          "body": "Mind timezone differences."
+        },
+        {
+          "author": "luca",
+          "created": "2025-08-16T09:53:00+02:00",
+          "body": "Edge case: empty descriptions."
+        },
+        {
+          "author": "eng_lead",
+          "created": "2025-08-19T10:39:00+02:00",
+          "body": "Example cURL must run."
+        }
+      ]
+    },
+    {
+      "key": "PF-2860",
+      "url": "https://buynomics.atlassian.net/browse/PF-2860",
+      "summary": "n8n workflow library: catalog + 3 new flows",
+      "description": "Document inputs/outputs/owners. Add tests.\nFound timestamp: 2025-08-01T12:00Z\n",
+      "status": "Done",
+      "labels": [
+        "ai",
+        "n8n",
+        "p0"
+      ],
+      "type": "Spike",
+      "priority": "Medium",
+      "reporter": "luca",
+      "assignee": "philippe",
+      "created": "2025-07-25T12:42:00+02:00",
+      "updated": "2025-08-10T09:46:00+02:00",
+      "comments": [
+        {
+          "author": "philippe",
+          "created": "2025-08-08T13:36:00+02:00",
+          "body": "Add cycle time metric if simple."
+        }
+      ]
+    },
+    {
+      "key": "PF-2861",
+      "url": "https://buynomics.atlassian.net/browse/PF-2861",
+      "summary": "Label migration: generate proposal CSV only",
+      "description": "Map old→new labels. Do not modify live issues.NULL",
+      "status": "To Do",
+      "labels": [
+        "ops",
+        "p0"
+      ],
+      "type": "Bug",
+      "priority": "Medium",
+      "reporter": "ivan.tretyakov",
+      "assignee": "philippe",
+      "created": "2025-07-22T08:33:00+02:00",
+      "updated": "2025-08-12T18:53:00+02:00",
+      "comments": [
+        {
+          "author": "hr_partner",
+          "created": "2025-08-03T18:12:00+02:00",
+          "body": "Minimize personal data."
+        },
+        {
+          "author": "data_team",
+          "created": "2025-08-10T12:26:00+02:00",
+          "body": "Mind timezone differences."
+        },
+        {
+          "author": "eng_lead",
+          "created": "2025-08-09T12:09:00+02:00",
+          "body": "Example cURL must run."
+        }
+      ]
+    },
+    {
+      "key": "PF-2862",
+      "url": "https://buynomics.atlassian.net/browse/PF-2862",
+      "summary": "Promotion overlap & loyalty stacking rules",
+      "description": "Model stacked discounts; warn if margin thresholds exceed.",
+      "status": "In Progress",
+      "labels": [
+        "cleanup",
+        "jira"
+      ],
+      "type": "Spike",
+      "priority": "Medium",
+      "reporter": "ivan.tretyakov",
+      "assignee": "data_analyst",
+      "created": "2025-07-12T16:00:00+02:00",
+      "updated": "2025-08-16T11:17:00+02:00",
+      "comments": [
+        {
+          "author": "data_team",
+          "created": "2025-08-08T18:35:00+02:00",
+          "body": "Mind timezone differences."
+        },
+        {
+          "author": "claudia",
+          "created": "2025-08-06T17:10:00+02:00",
+          "body": "Please propose page types & templates."
+        },
+        {
+          "author": "luca",
+          "created": "2025-08-10T14:28:00+02:00",
+          "body": "Edge case: empty descriptions."
+        }
+      ]
+    },
+    {
+      "key": "PF-2863",
+      "url": "https://buynomics.atlassian.net/browse/PF-2863",
+      "summary": "API quota monitor",
+      "description": "Alert when near rate limits; backoff strategy.\nFound timestamp: 2025-08-01T12:00Z\nNULL",
+      "status": "To Do",
+      "labels": [
+        "ops"
+      ],
+      "type": "Story",
+      "priority": "High",
+      "reporter": "claudia",
+      "assignee": "data_analyst",
+      "created": "2025-07-13T09:09:00+02:00",
+      "updated": "2025-08-13T11:39:00+02:00",
+      "comments": [
+        {
+          "author": "john_pm",
+          "created": "2025-08-14T14:59:00+02:00",
+          "body": "Holiday mode snooze accepted."
+        },
+        {
+          "author": "claudia",
+          "created": "2025-08-07T08:01:00+02:00",
+          "body": "Please propose page types & templates."
+        },
+        {
+          "author": "it_ops",
+          "created": "2025-08-11T18:48:00+02:00",
+          "body": "Waiting for approval."
+        }
+      ]
+    },
+    {
+      "key": "PF-2864",
+      "url": "https://buynomics.atlassian.net/browse/PF-2864",
+      "summary": "Confluence broken link finder",
+      "description": "Crawl pages; list 404s; propose fixes.\nFound timestamp: 2025-08-01T12:00Z\n",
+      "status": "In Progress",
+      "labels": [
+        "automation",
+        "ops",
+        "n8n"
+      ],
+      "type": "Spike",
+      "priority": "High",
+      "reporter": "pm_team",
+      "assignee": null,
+      "created": "2025-07-16T09:06:00+02:00",
+      "updated": "2025-08-05T13:00:00+02:00",
+      "comments": [
+        {
+          "author": "it_ops",
+          "created": "2025-08-14T16:46:00+02:00",
+          "body": "Waiting for approval."
+        },
+        {
+          "author": "it_ops",
+          "created": "2025-08-03T17:37:00+02:00",
+          "body": "Waiting for approval."
+        }
+      ]
+    }
+  ]
+}
